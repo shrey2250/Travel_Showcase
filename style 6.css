@@ -1,0 +1,60 @@
+  body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f6f6;
+  }
+
+  .sidebar {
+    width: 230px;
+    min-height: 100vh;
+  }
+  .sidebar h4 {
+    font-size: 1.3rem;
+  }
+  .sidebar .nav-link {
+    color: #333;
+    font-size: 0.95rem;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  .sidebar .nav-link.active,
+  .sidebar .nav-link:hover {
+    background-color: #f1f1f1;
+    color: #000;}
+
+  .main-content {
+    background-color: #f3eeee;
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+
+  .header {
+    background-color: #f3eeee;
+    padding: 10px;
+  }
+
+  .profile-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d1d1d1;
+  }
+
+  .contact-form-box {
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    max-width: 700px;
+  }
+
+  .form-label {
+    font-weight: 500;
+  }
+
+  .btn-group-vertical .btn {
+    width: 80px;
+  }
+
+  .arrows .btn {
+    font-size: 18px;
+    font-weight: bold;
+  }

@@ -1,0 +1,89 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+/* Header */
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.signup {
+  font-size: 12px;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.signup:hover {
+  color: #ff6600;
+  border-bottom: 2px solid #ff6600;
+}
+
+/* Navbar links */
+.main-nav .nav-link {
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.main-nav .nav-link:hover {
+  color: #ff6600 !important;
+  border-bottom: 2px solid #ff6600;
+}
+
+/* Hero */
+.hero {
+  height: 230px;
+  background: url("hero.jpg") center/cover no-repeat;
+  color: #f8f5f5;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 8px;
+}
+
+/* About Section */
+.about-text h3,
+.about-owner h4 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.about-text p,
+.about-owner p {
+  color: #555;
+  font-size: 14px;
+}
+
+.learn-more {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+/* Cards */
+.card h3 {
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Our Stories */
+.our-stories {
+  background-color: #fff4e6;
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+  color: #555;
+}
+
+.heading {
+  font-family: 'Playfair Display', serif;
+}

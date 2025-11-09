@@ -1,0 +1,49 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f8f6f6;
+}
+
+.sidebar {
+  width: 230px;
+  min-height: 100vh;
+}
+.sidebar h4 {
+  font-size: 1.3rem;
+}
+.sidebar .nav-link {
+  color: #333;
+  font-size: 0.95rem;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  background-color: #f1f1f1;
+  color: #000;}
+
+.search-bar {
+  max-width: 600px;
+  background-color: #f3eef7;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.search-bar input {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+.search-bar input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.table {
+  width: 80%;
+  margin: auto;
+  background-color: #f8f8f8;
+}
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}

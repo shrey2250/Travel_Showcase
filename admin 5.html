@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Gallery Manager</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style 5.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="d-flex">
+  <!-- Sidebar -->
+  <nav class="sidebar bg-light p-3">
+    <h4 class="text-center fw-bold mb-4">Admin<br>Dashboard</h4>
+    <ul class="nav flex-column">
+      <li class="nav-item"><a class="nav-link" href="admin 1.html">Dashboard</a></li>
+      <li class="nav-item"><a class="nav-link active" href="admin 2.html">Manage Users</a></li>
+      <li class="nav-item"><a class="nav-link" href="admin 3.html">Add Destination</a></li>
+      <li class="nav-item"><a class="nav-link" href="admin 4.html">View Bookings</a></li>
+      <li class="nav-item"><a class="nav-link" href="admin 5.html">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="admin 6.html">Contact Messages</a></li>
+      <li class="nav-item"><a class="nav-link" href="admin 7.html">Settings / Logout</a></li>
+    </ul>
+  </nav>
+
+   <div class="flex-grow-1">
+    <header class="bg-light shadow-sm p-3 mb-4">
+      <h5 class="mb-0">Gallery</h5>
+    </header>
+
+      <div class="p-4">
+        <div class="d-flex justify-content-center gap-3 mb-4">
+          <div>
+            <label for="addImage" class="btn btn-upload d-flex align-items-center justify-content-center">
+              Add Image <i class="bi bi-upload ms-2"></i>
+            </label>
+            <input type="file" id="addImage" class="d-none" accept="image/*">
+          </div>
+
+          <select class="form-select category-select">
+            <option>Category</option>
+            <option>Beaches</option>
+            <option>Mountains</option>
+            <option>Historic</option>
+            <option>Adventure</option>
+          </select>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="gallery-card text-center">
+              <label class="image-upload">
+                <input type="file" accept="image/*" onchange="previewImage(event, this)">
+                <img src="" alt="Preview" class="preview">
+              </label>
+              <div class="mt-2">
+                <button class="btn btn-sm btn-light border">Edit</button>
+                <button class="btn btn-sm btn-light border">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="gallery-card text-center">
+              <label class="image-upload">
+                <input type="file" accept="image/*" onchange="previewImage(event, this)">
+                <img src="" alt="Preview" class="preview">
+              </label>
+              <div class="mt-2">
+                <button class="btn btn-sm btn-light border">Edit</button>
+                <button class="btn btn-sm btn-light border">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="gallery-card text-center">
+              <label class="image-upload">
+                <input type="file" accept="image/*" onchange="previewImage(event, this)">
+                <img src="" alt="Preview" class="preview">
+              </label>
+              <div class="mt-2">
+                <button class="btn btn-sm btn-light border">Edit</button>
+                <button class="btn btn-sm btn-light border">Delete</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

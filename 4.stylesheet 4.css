@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+/*--- HEADER --- */
+.top-bar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-style: italic;
+  margin: 0;
+}
+
+.top-bar .signup {
+  position: absolute;
+  right: 40px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.top-bar .signup:hover {
+  color: #ff6600;
+  border-bottom: 2px solid #ff6600;
+}
+
+/*--- NAVIGATION ---*/
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.main-nav a:hover {
+  color: #ff6600;
+  border-bottom: 2px solid #ff6600;
+}
+
+/* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #555;
+    margin: 10px auto auto auto;
+}
+
+.about-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  gap: 40px;
+  align-items: start;
+  text-align: left; 
+  margin-bottom: 50px;
+}
+
+.mission {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.6;
+  align-self: center;
+}
+
+.owner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.owner-photo {
+  width: 120px;             
+  height: 120px;
+  border-radius: 50%;        
+  margin-bottom: 15px;
+  background-image: url('no\ profile.jpg'); 
+  background-size: cover;   
+  background-position: center;
+  margin-top: 20px;
+}
+.owner-text {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.team-section {
+  max-width: 1100px;
+  margin: 30px auto 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  background: #d1edff;
+  padding: 20px;
+}
+.team-description p {
+  margin: 50px 0 10px 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+.team-photo {
+  background: #cce8fa;
+  display: flex;
+  background-size: cover;
+  font-size: 18px;
+  width: 400px;
+  height: 300px;
+
+}
+
+.contact-section {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 200px;
+  text-align: left;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contact-form input, .contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.contact-form textarea {
+  min-height: 100px;
+}
+.contact-form button {
+  background: #0077b6;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  width: 500px;
+}
+.contact-form button:hover {
+  background: #005f8d;
+}
+.contact-info p {
+  margin: 50px 0;
+  font-size: 18px;
+}
+
+
+.newsletter {
+  background: #d1edff;
+  padding: 30px;
+  text-align: center;
+}
+
+.newsletter-inner {
+  display: flex;
+  justify-content: center;      
+  align-items: center;         
+  gap: 50px;                    
+  flex-wrap: wrap;              
+}
+
+.newsletter h2{
+  font-size: 24px;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.newsletter-box {
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  gap: 20px;
+}
+
+.newsletter-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  min-width: 250px;
+}
+
+.newsletter-box button {
+  background: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.newsletter-box button:hover {
+  background: #005f8d;
+}
+
+.about-section h2,
+.contact-section h2{
+  font-size: 32px;
+  background: #e0f3ff;
+  height: auto;       
+  line-height: 1.4;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
